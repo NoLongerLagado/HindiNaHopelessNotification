@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Notif_BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Notif_Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Notif_BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notif_BLL.dll": {}
+        }
+      },
+      "Notif_Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Notif_Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notif_Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Notif_BLL/1.0.0": {
+      "type": "project",
+      "path": "../Notif_BLL/Notif_BLL.csproj",
+      "msbuildProject": "../Notif_BLL/Notif_BLL.csproj"
+    },
+    "Notif_Models/1.0.0": {
+      "type": "project",
+      "path": "../Notif_Models/Notif_Models.csproj",
+      "msbuildProject": "../Notif_Models/Notif_Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Notif_BLL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hakori17\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\C# Activities\\NotificationInterface\\NotificationInterface.csproj",
+      "projectName": "NotificationInterface",
+      "projectPath": "C:\\C# Activities\\NotificationInterface\\NotificationInterface.csproj",
+      "packagesPath": "C:\\Users\\hakori17\\.nuget\\packages\\",
+      "outputPath": "C:\\C# Activities\\NotificationInterface\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hakori17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\C# Activities\\Notif_BLL\\Notif_BLL.csproj": {
+              "projectPath": "C:\\C# Activities\\Notif_BLL\\Notif_BLL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
